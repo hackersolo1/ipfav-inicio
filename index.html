@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPFAV — Igreja Presbiteriana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+
+<body>
+
+    <!-- ======= NAVBAR ======= -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="#hero" class="navbar-brand">
+                <div class="brand-icon">✝</div>
+                <span>IPFAV</span>
+            </a>
+
+            <nav class="navbar-nav">
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#eventos" class="nav-link">Eventos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ======= HERO ======= -->
+        <section id="hero" class="hero">
+            <div class="hero-bg-orb orb-1"></div>
+            <div class="hero-bg-orb orb-2"></div>
+
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <span class="hero-eyebrow">Bem-vindo à</span>
+                    <h1 class="hero-title">
+                        IPFAV
+                    </h1>
+                    <p class="hero-subtitle">
+                        Um lugar de acolhimento, fé e comunhão verdadeira.<br>
+                        Venha crescer conosco.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#eventos" class="btn btn-primary">
+                            <i data-lucide="calendar"></i>
+                            Ver Programação
+                        </a>
+                        <a href="https://maps.app.goo.gl/85VujURsbEGh9W6Z8" class="btn btn-ghost" target="_blank" rel="noopener">
+                            <i data-lucide="map-pin"></i>
+                            Como Chegar
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-card-stack">
+                        <div class="hero-floating-card card-a">
+                            <i data-lucide="heart"></i>
+                            <span>Comunhão</span>
+                        </div>
+                        <div class="hero-floating-card card-b">
+                            <i data-lucide="book-open"></i>
+                            <span>Palavra</span>
+                        </div>
+                        <div class="hero-floating-card card-c">
+                            <i data-lucide="users"></i>
+                            <span>Família</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= STATS ======= -->
+        <section class="stats-bar">
+            <div class="stats-inner">
+                <div class="stat">
+                    <strong>15+</strong>
+                    <span>Anos de História</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <strong>500+</strong>
+                    <span>Membros Ativos</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <strong>12</strong>
+                    <span>Ministérios</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <strong>3</strong>
+                    <span>Cultos Semanais</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= CARROSSEL DE EVENTOS ======= -->
+        <section id="eventos" class="carousel-section">
+            <div class="section-label">
+                <i data-lucide="calendar-days"></i>
+                Próximos Eventos
+            </div>
+            <h2 class="section-heading">O que está por vir</h2>
+
+            <div class="carousel-wrapper">
+                <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Anterior">
+                    <i data-lucide="chevron-left"></i>
+                </button>
+
+                <div class="carousel-viewport" id="carouselViewport">
+                    <div class="carousel-track" id="carouselTrack">
+                    </div>
+                </div>
+
+                <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Próximo">
+                    <i data-lucide="chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Dots de paginação -->
+            <div class="carousel-dots" id="carouselDots"></div>
+        </section>
+
+        <!-- ======= SOBRE ======= -->
+        <section id="sobre" class="about-section">
+            <div class="about-inner">
+                <div class="about-image-wrap">
+                    <img src="https://i.ibb.co/QFTd9JRq/image.png" alt="Comunidade IPFAV reunida">
+                    <div class="about-image-accent"></div>
+                </div>
+
+                <div class="about-content">
+                    <span class="section-label">
+                        <i data-lucide="info"></i>
+                        Sobre Nós
+                    </span>
+                    <h2 class="section-heading">Somos uma família<br><em>em Cristo</em></h2>
+                    <p class="about-text">
+                        A IPFAV é um lugar onde pessoas de todas as idades e origens se reúnem para adorar a Deus,
+                        crescer espiritualmente e servir à comunidade. Nossa missão é levar o amor de Cristo
+                        ao mundo através de cultos inspiradores e ensinos bíblicos sólidos.
+                    </p>
+                    <ul class="about-features">
+                        <li class="feature-item">
+                            <div class="feature-icon"><i data-lucide="heart"></i></div>
+                            <div>
+                                <h4>Comunhão Verdadeira</h4>
+                                <p>Relacionamentos genuínos e acolhimento caloroso para todos.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon"><i data-lucide="book-open"></i></div>
+                            <div>
+                                <h4>Ensino Bíblico</h4>
+                                <p>Pregações relevantes baseadas na Palavra de Deus.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon"><i data-lucide="users"></i></div>
+                            <div>
+                                <h4>Impacto Social</h4>
+                                <p>Transformando vidas através do amor e do serviço.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= CONTATO ======= -->
+        <section id="contato" class="contact-section">
+            <div class="contact-inner">
+                <div class="contact-header">
+                    <span class="section-label">
+                        <i data-lucide="phone"></i>
+                        Contato
+                    </span>
+                    <h2 class="section-heading">Estamos aqui<br><em>para você</em></h2>
+                    <p class="contact-intro">Tem alguma dúvida? Entre em contato conosco!</p>
+                </div>
+
+                <div class="contact-cards">
+                    <a href="https://maps.app.goo.gl/85VujURsbEGh9W6Z8" class="contact-card" target="_blank" rel="noopener">
+                        <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+                        <h4>Endereço</h4>
+                        <p>Rua da Fé, 123 — Centro<br>São Paulo, SP</p>
+                    </a>
+                    <a href="https://wa.me/5541998656934" class="contact-card" target="_blank" rel="noopener">
+                        <div class="contact-icon"><i data-lucide="phone"></i></div>
+                        <h4>Telefone</h4>
+                        <p>(11) 1234-5678</p>
+                    </a>
+                    <a href="mailto:contato@ipfav.com" class="contact-card">
+                        <div class="contact-icon"><i data-lucide="mail"></i></div>
+                        <h4>Email</h4>
+                        <p>contato@ipfav.com</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="brand-icon">✝</div>
+                <span>IPFAV</span>
+                <p>Levando o amor de Cristo ao mundo desde 2010.</p>
+            </div>
+
+            <div class="footer-links">
+                <h5>Navegação</h5>
+                <a href="#hero">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#eventos">Eventos</a>
+                <a href="#contato">Contato</a>
+            </div>
+
+            <div class="footer-links">
+                <h5>Horários</h5>
+                <p>Domingo: 09h e 19h</p>
+                <p>Quarta: 20h</p>
+                <p>Quinta: 20h</p>
+            </div>
+
+            <div class="footer-social">
+                <h5>Redes Sociais</h5>
+                <div class="social-row">
+                    <a href="#" class="social-btn" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" class="social-btn" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" class="social-btn" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 IPFAV. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ======= MODAL DE EVENTO ======= -->
+    <div class="modal-overlay" id="eventModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose" aria-label="Fechar">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-badge" id="modalBadge">
+                <span id="modalDay"></span>
+                <span id="modalMonth"></span>
+            </div>
+            <span class="modal-tag" id="modalTag"></span>
+            <h3 id="modalTitle"></h3>
+            <p class="modal-time" id="modalTime"></p>
+            <p class="modal-desc" id="modalDesc"></p>
+        </div>
+    </div>
+
+    <!-- ======= MODAL DE LOGIN ======= -->
+    <div class="modal-overlay" id="loginModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-box modal-login">
+            <button class="modal-close" id="loginModalClose" aria-label="Fechar">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="login-header">
+                <div class="brand-icon">✝</div>
+                <h3>Acesso ao Sistema</h3>
+                <p>Faça login para gerenciar a IPFAV</p>
+            </div>
+            <form class="login-form" id="loginForm" novalidate>
+                <div class="field-group">
+                    <label for="username">Usuário</label>
+                    <div class="field-wrap">
+                        <i data-lucide="user"></i>
+                        <input type="text" id="username" name="username" placeholder="seu.usuario" autocomplete="username" required>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <label for="password">Senha</label>
+                    <div class="field-wrap">
+                        <i data-lucide="lock"></i>
+                        <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                    <i data-lucide="log-in"></i>
+                    Entrar
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
