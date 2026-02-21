@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hackersolo1.github.io
