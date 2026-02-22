@@ -505,7 +505,7 @@ ul {
     padding: 7rem 0 5rem;
     background: var(--bg-0);
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .carousel-section::before {
